@@ -46,11 +46,11 @@ PROMO_CODE, PROMO_PRODUCT, PROMO_DISCOUNT, PROMO_CODE_START, PROMO_CODE_END = ra
 MAIL_CONTENT, MAIL_TIMER = range(2)
 
 # --- Environment configuration ---
-ADMIN_IDS = {int(x) for x in os.getenv('ADMIN_IDS', '1839853176, 409251957').split(',') if x}
-CREDENTIALS_PATH = os.getenv('GOOGLE_CREDENTIALS_JSON', 'credentials.json')
-SPREADSHEET_ID = os.getenv('GSHEET_ANALYTICS_ID', '1okEbfK969YCaioL_ZiqNkQynGXWhAHFKjLEVthqs48')
-ADMIN_BOT_TOKEN = os.getenv('ADMIN_BOT_TOKEN', '8089242630:AAE_6189OdZD1i-Sh_cvFgSy6T8GD49gYt4')
-USER_BOT_TOKEN = os.getenv('USER_BOT_TOKEN', '7971140741:AAHt1cL1ljqQfUylHZ0JI_XWxjF1sA-e16w')
+ADMIN_IDS = {int(x) for x in os.getenv('ADMIN_IDS', '').split(',') if x}
+CREDENTIALS_PATH = os.getenv('GOOGLE_CREDENTIALS_JSON', '')
+SPREADSHEET_ID = os.getenv('GSHEET_ANALYTICS_ID', '')
+ADMIN_BOT_TOKEN = os.getenv('ADMIN_BOT_TOKEN', '')
+USER_BOT_TOKEN = os.getenv('USER_BOT_TOKEN', '')
 DB_PATH = os.getenv('DB_PATH', 'bot.db')
 MEDIA_DIR = os.getenv('MEDIA_DIR', 'media')
 
