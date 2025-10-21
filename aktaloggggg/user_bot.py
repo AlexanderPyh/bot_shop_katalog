@@ -27,8 +27,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Environment variables
-ADMIN_IDS = {int(x) for x in os.getenv('ADMIN_IDS', '1839853176,409251957').split(',') if x}
-TOKEN = os.getenv('USER_BOT_TOKEN', '7971140741:AAHt1cL1ljqQfUylHZ0JI_XWxjF1sA-e16w')
+ADMIN_IDS = {int(x) for x in os.getenv('ADMIN_IDS', '').split(',') if x}
+TOKEN = os.getenv('USER_BOT_TOKEN', '')
 DB_PATH = os.getenv('DB_PATH', 'bot.db')
 MEDIA_DIR = os.getenv('MEDIA_DIR', 'media')
 
