@@ -1,6 +1,6 @@
 # Eurocascade Curtain Studio Telegram Bot
 
-This project is a Telegram-based e-commerce bot system for the "Eurocascade" curtain studio, with over 25 years of experience in creating high-quality textile products. The system consists of two bots: a **User Bot** for customers to browse products, manage their cart, and interact with promotions, and an **Admin Bot** for managing the store's catalog, promotions, and analytics.
+This project is a Telegram-based e-commerce bot system studio. The system consists of two bots: a **User Bot** for customers to browse products, manage their cart, and interact with promotions, and an **Admin Bot** for managing the store's catalog, promotions, and analytics.
 
 ## Features
 
@@ -115,6 +115,3 @@ Logs include debug, info, warning, and error messages for troubleshooting.
 - The media directory (`MEDIA_DIR`) must have write permissions for storing product photos.
 - Google Sheets credentials must have the correct scopes (`https://www.googleapis.com/auth/spreadsheets`).
 - The User Bot requires the bot to have admin permissions in the Telegram channel for join request handling.
-
-## License
-This project is proprietary and intended for use by the Eurocascade curtain studio. Unauthorized distribution or modification is prohibited.
